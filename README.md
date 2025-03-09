@@ -41,7 +41,7 @@ Sound Event Detection เป็นระบบที่สามารถจำ�
   Dense(7, activation='softmax')
   ])
 - ใช้ categorical_crossentropy เป็น Loss Function
-- ใช้ Optimizer Adam และวัดผลด้วย accuracy
+- ใช้ Optimizer RMSProp และวัดผลด้วย accuracy
 
 🔹 4. การฝึกสอนโมเดล (Training)
 
